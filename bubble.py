@@ -1,6 +1,4 @@
-#2,9,3,8,34,35,23,1
-
-def bSort(nlis):
+def bubbleSort(nlis):
     sorted = False
 
     while sorted == False:
@@ -17,9 +15,3 @@ def bSort(nlis):
                     break
 
     return nlis
-
-#myArr = [2,9,3,8,34,35,23,1]
-myArr = [2,9,3,8,8,8,23,1]
-print(myArr)
-cleanArr = bSort(myArr)
-print(cleanArr)
